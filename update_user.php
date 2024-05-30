@@ -61,6 +61,17 @@ if(isset($_POST['submit'])){
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
    <!-- custom css file link  -->
+   <link rel="stylesheet" href="assets/vendor/css/all.min.css">
+    <link rel="stylesheet" href="assets/vendor/flaticon/flaticon.css">
+    <link rel="stylesheet" href="assets/vendor/css/nice-select.css">
+    <link rel="stylesheet" href="assets/vendor/css/flags.css">
+    <link rel="stylesheet" href="assets/vendor/css/slick.css">
+    <link rel="stylesheet" href="assets/vendor/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendor/css/modal-video.min.css">
+    <link rel="stylesheet" href="assets/vendor/css/nouislider.min.css">
+    <link rel="stylesheet" href="assets/vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/style.css">
    <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -71,14 +82,16 @@ if(isset($_POST['submit'])){
 <section class="form-container">
 
    <form action="" method="post">
-      <h3>Update now</h3>
+   <div class="heading text-center">
+                    <h2>Update</h2>
+                </div>
       <input type="hidden" name="prev_pass" value="<?= $fetch_profile["password"]; ?>">
-      <input type="text" name="name" required placeholder="enter your username" maxlength="20"  class="box" value="<?= $fetch_profile["name"]; ?>">
-      <input type="email" name="email" required placeholder="enter your email" maxlength="50"  class="box" oninput="this.value = this.value.replace(/\s/g, '')" value="<?= $fetch_profile["email"]; ?>">
-      <input type="password" name="old_pass" placeholder="enter your old password" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="password" name="new_pass" placeholder="enter your new password" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="password" name="cpass" placeholder="confirm your new password" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="submit" value="update now" class="btn" name="submit">
+      <input type="text" name="name" required placeholder="enter your username" maxlength="20"  class="form-control" value="<?= $fetch_profile["name"]; ?>">
+      <input type="email" name="email" required placeholder="enter your email" maxlength="50"  class="form-control" oninput="this.value = this.value.replace(/\s/g, '')" value="<?= $fetch_profile["email"]; ?>">
+      <input type="password" name="old_pass" placeholder="enter your old password" maxlength="20"  class="form-control" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" name="new_pass" placeholder="enter your new password" maxlength="20"  class="form-control" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" name="cpass" placeholder="confirm your new password" maxlength="20"  class="form-control" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="submit" value="update now" class="def-btn" name="submit">
    </form>
 
 </section>
