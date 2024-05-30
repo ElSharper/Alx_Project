@@ -103,7 +103,13 @@ This project is an e-commerce website developed as a final project for the ALX S
 
 ## Screenshots
 
-(Add screenshots of your project here)
+![Screenshot 2024-05-30 150324](https://github.com/ElSharper/Alx_Project/assets/118342478/eba3a4d8-8ed4-4879-8be5-67dbeea4bc70)
+![Screenshot 2024-05-30 150455](https://github.com/ElSharper/Alx_Project/assets/118342478/f37d978b-9c24-4537-a920-6824df2a7cc2)
+![Screenshot 2024-05-30 150736](https://github.com/ElSharper/Alx_Project/assets/118342478/1f170248-6bd4-4bba-99ab-92e48d81fd19)
+![Screenshot 2024-05-30 150515](https://github.com/ElSharper/Alx_Project/assets/118342478/48d75dcc-25d1-4779-ad80-d38b77f1dd65)
+![Screenshot 2024-05-30 150522](https://github.com/ElSharper/Alx_Project/assets/118342478/01622a5b-18ae-4f7c-8d20-ca339da4cb1a)
+![Screenshot 2024-05-30 150530](https://github.com/ElSharper/Alx_Project/assets/118342478/602942d6-0c3f-416d-baf0-121e52d999fc)
+![Screenshot 2024-05-30 150537](https://github.com/ElSharper/Alx_Project/assets/118342478/a2a5cdfa-699d-4b8a-9e3a-eaec83fed580)
 
 ## Credits
 - Bootstrap: For providing the front-end framework.
