@@ -160,7 +160,7 @@
                                     <nav id="revel-mobile-menu" class="revel-mobile-menu">
                                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                             <li class="nav-item dropdown has-mega-menu">
-                                                <a class="nav-link" href="home2.php">Home</a>
+                                                <a class="nav-link" href="home.php">Home</a>
 
                                             </li>
                                             <li class=" nav-item">
