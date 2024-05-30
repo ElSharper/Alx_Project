@@ -52,6 +52,17 @@ if(isset($_POST['send'])){
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
    <!-- custom css file link  -->
+   <link rel="stylesheet" href="assets/vendor/css/all.min.css">
+    <link rel="stylesheet" href="assets/vendor/flaticon/flaticon.css">
+    <link rel="stylesheet" href="assets/vendor/css/nice-select.css">
+    <link rel="stylesheet" href="assets/vendor/css/flags.css">
+    <link rel="stylesheet" href="assets/vendor/css/slick.css">
+    <link rel="stylesheet" href="assets/vendor/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendor/css/modal-video.min.css">
+    <link rel="stylesheet" href="assets/vendor/css/nouislider.min.css">
+    <link rel="stylesheet" href="assets/vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/style.css">
    <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -62,12 +73,14 @@ if(isset($_POST['send'])){
 <section class="contact">
 
    <form action="" method="post">
-      <h3>Get in touch.</h3>
-      <input type="text" name="name" placeholder="enter your name" required maxlength="20" class="box">
-      <input type="email" name="email" placeholder="enter your email" required maxlength="50" class="box">
-      <input type="number" name="number" min="0" max="9999999999" placeholder="enter your number" required onkeypress="if(this.value.length == 10) return false;" class="box">
-      <textarea name="msg" class="box" placeholder="enter your message" cols="30" rows="10"></textarea>
-      <input type="submit" value="send message" name="send" class="btn">
+      <div class="heading text-center">
+                    <h2>Contac US</h2>
+                </div>
+      <input type="text" name="name" placeholder="enter your name" required maxlength="20" class="form-control">
+      <input type="email" name="email" placeholder="enter your email" required maxlength="50" class="form-control">
+      <input type="number" name="number" min="0" max="9999999999" placeholder="enter your number" required onkeypress="if(this.value.length == 10) return false;" class="form-control">
+      <textarea name="msg" class="form-control" placeholder="enter your message" cols="30" rows="10"></textarea>
+      <input type="submit" value="send message" name="send" class="def-btn">
    </form>
 
 </section>
