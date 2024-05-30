@@ -98,8 +98,10 @@ This project is an e-commerce website developed as a final project for the ALX S
 - Admin users can log in to the admin panel.
 - Manage products and orders through the CRUD interface.
 - Admin Login
+ ```bash
   UserName : admin
   Password : admin
+ ```
 
 ## Screenshots
 
