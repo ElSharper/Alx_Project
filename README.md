@@ -118,4 +118,4 @@ This project is an e-commerce website developed as a final project for the ALX S
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+El Mehdi Bayoud | Alx
