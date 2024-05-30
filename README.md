@@ -61,7 +61,7 @@ This project is an e-commerce website developed as a final project for the ALX S
         - Click "Go" to import the database schema and data.
 
 4. Configure the database connection:
-    Edit the `config.php` file in the root directory to match your database credentials:
+    Edit the `/components/connect.php` file in the root directory to match your database credentials:
     ```php
     <?php
     $db_name = 'mysql:host=localhost;dbname=Alx_Project';
