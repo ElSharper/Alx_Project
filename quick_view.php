@@ -26,6 +26,17 @@ include 'components/wishlist_cart.php';
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
    <!-- custom css file link  -->
+   <link rel="stylesheet" href="assets/vendor/css/all.min.css">
+    <link rel="stylesheet" href="assets/vendor/flaticon/flaticon.css">
+    <link rel="stylesheet" href="assets/vendor/css/nice-select.css">
+    <link rel="stylesheet" href="assets/vendor/css/flags.css">
+    <link rel="stylesheet" href="assets/vendor/css/slick.css">
+    <link rel="stylesheet" href="assets/vendor/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendor/css/modal-video.min.css">
+    <link rel="stylesheet" href="assets/vendor/css/nouislider.min.css">
+    <link rel="stylesheet" href="assets/vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/style.css">
    <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -35,7 +46,9 @@ include 'components/wishlist_cart.php';
 
 <section class="quick-view">
 
-   <h1 class="heading">Quick view</h1>
+<div class="heading text-center">
+                    <h2>Product page</h2>
+                </div>
 
    <?php
      $pid = $_GET['pid'];
@@ -63,13 +76,13 @@ include 'components/wishlist_cart.php';
          <div class="content">
             <div class="name"><?= $fetch_product['name']; ?></div>
             <div class="flex">
-               <div class="price"><span>Nrs.</span><?= $fetch_product['price']; ?><span>/-</span></div>
-               <input type="number" name="qty" class="qty" min="1" max="99" onkeypress="if(this.value.length == 2) return false;" value="1">
+               <div class="price"><span></span><?= $fetch_product['price']; ?><span> USD </span></div>
+               <input type="number" name="qty" class="form-control" min="1" max="99" onkeypress="if(this.value.length == 2) return false;" value="1">
             </div>
             <div class="details"><?= $fetch_product['details']; ?></div>
             <div class="flex-btn">
-               <input type="submit" value="add to cart" class="btn" name="add_to_cart">
-               <input class="option-btn" type="submit" name="add_to_wishlist" value="add to wishlist">
+               <input type="submit" value="add to cart" class="def-btn" name="add_to_cart">
+               <input class="btn" type="submit" name="add_to_wishlist" value="add to wishlist">
             </div>
          </div>
       </div>
