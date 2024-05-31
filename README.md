@@ -37,7 +37,7 @@ This project is an e-commerce website developed as a final project for the ALX S
 - MySQL
 
 ## Architecture Overview Diagram
-- test
+![PO](https://github.com/ElSharper/Alx_Project/assets/118342478/ff82d1f5-0e3b-4f46-96ba-b96d4613013f)
 
 ## Setup Instructions
 
