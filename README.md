@@ -120,6 +120,7 @@ This project is an e-commerce website developed as a final project for the ALX S
 ## Credits
 - Bootstrap: For providing the front-end framework.
 - ALX Software Engineer Program: For guidance and support throughout the project.
+- Revel-ecommerce-multi-vendor-multipurpose-html-template
 - Any other libraries or resources used.
 
 ## License
