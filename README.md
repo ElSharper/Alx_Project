@@ -4,6 +4,7 @@
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Architecture Overview Diagram](#Architecture-Overview-Diagram)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
@@ -34,6 +35,9 @@ This project is an e-commerce website developed as a final project for the ALX S
 ### Back-end:
 - PHP (native)
 - MySQL
+
+## Architecture Overview Diagram
+- test
 
 ## Setup Instructions
 
